@@ -26,6 +26,7 @@ const Producto = ({ guitarra, agregarCarrito }) => {
 
     // pasamos la informacion al context del carrito
     agregarCarrito(guitarraSeleccionada);
+    alert('Producto agregado al carrito');
   };
 
   return (
